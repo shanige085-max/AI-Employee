@@ -1,0 +1,14 @@
+{
+  "name": "puzzleai-employee",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PuzzleAI Employee service architecture and automation pipelines.",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
