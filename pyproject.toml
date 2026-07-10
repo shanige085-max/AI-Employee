@@ -1,0 +1,13 @@
+[project]
+name = "puzzle-ai-employee"
+version = "0.3.0"
+description = "PuzzleAI Employee modular puzzle engine foundation."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
